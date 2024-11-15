@@ -1,0 +1,294 @@
+*{
+    font-family: "Sarabun", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.sarabun-thin {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .sarabun-extralight {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .sarabun-light {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .sarabun-regular {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sarabun-medium {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .sarabun-semibold {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .sarabun-bold {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .sarabun-extrabold {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .sarabun-thin-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .sarabun-extralight-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .sarabun-light-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .sarabun-regular-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .sarabun-medium-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .sarabun-semibold-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .sarabun-bold-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .sarabun-extrabold-italic {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1em!important;
+    font-weight: 100;
+    color: #373737;
+}
+
+.mt-10{
+    margin-top: 10%;
+}
+
+.btn-custom {
+    background-color: #050505;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.mt-6{
+    margin-top: 6%;
+}
+
+
+.btn-custom{
+    font-size: medium;
+    font-weight: 600!important;
+}
+
+.btn-custom:hover{
+    color: rgb(173, 191, 191)!important;
+    transition: 0.9s;
+    background-color: #222222;
+}
+
+
+.fondo-negro{
+    background-color: #222222;
+}
+
+.fondo-negro .container{
+    background-color: #222222;
+    color: white!important;
+}
+
+.pt-10{
+
+padding-top: 10%;
+}
+
+.fondo-negro .card{
+    background-color: #222222;
+    padding: 5%;
+
+}
+
+.fondo-negro p.card-text{
+    color: white;
+
+}
+
+
+/* Añade este estilo CSS */
+.loader svg {
+    width: 250px; /* Ajusta el tamaño según prefieras */
+    height: 250px;
+    animation: rotate 2s linear infinite; /* Efecto de rotación */
+  }
+  
+  .loader path {
+    fill: none;
+    stroke: #363636; /* Color de las líneas */
+    stroke-width: 6; /* Ajusta el grosor de la línea */
+    stroke-dasharray: 1000; /* Cantidad de "trazos" del path */
+    stroke-dashoffset: 1000;
+    animation: draw 10s ease-in-out infinite;
+  }
+  
+  /* Animación de construcción */
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  /* Animación de rotación */
+  @keyframes rotate {
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+  .gif{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+
+  .titular{
+    height: 100%;
+  }
+
+
+  .swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+
+  /* swiper */
+
+  
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+ 
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .mySwiper2 {
+    height: 500px!important;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+
+  .mySwiper {
+    height: 0%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
+  } 
+
+  .mySwiper .swiper-slide {
+    width: 300px;
+    height: 200px;
+    opacity: 0.4;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+  .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
